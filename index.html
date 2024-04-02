@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet" />
+    <title>CRUD FULL RESTART</title>
+</head>
+<body>
+    <h1>CRUD TODOLIST</h1>
+    <div id="todoContainer"></div>
+
+    <div id="formulaireContainer" class="hidden">
+        <button id="close" onclick="closeForm()">X</button>
+        <form action="" method="post"  id="formulaire">
+            <label for="content">Content</label>
+            <input id="content" type="text">
+            <button id="submit" type="submit">Envoyer</button>
+            <button id="editSubmit" class="hidden" onclick="editTodo()">Modifier</button>
+        </form>
+    </div>
+
+    <button id="displayForm" onclick="displayForm()">+</button>
+    <script src="./script.js"></script>
+</body>
+</html>

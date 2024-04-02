@@ -1,0 +1,29 @@
+.todo {
+    display:flex;
+    background:grey;
+    justify-content: space-between;
+    margin: 1rem;
+    border-radius:20px;
+    color:white
+}
+
+.hidden {
+    display:none;
+}
+
+#formulaireContainer {
+    padding:5rem;
+    flex-direction: column;
+    position: absolute;
+    top:50%;
+    left:25%;
+    background:grey;
+    border-radius:20px;
+    transition: 250ms;
+    opacity: 1; /* Opacité normale pour la div avec l'ID "formulaire" */
+}
+
+.opacity {
+    transition: 250ms;
+    opacity: 0.2; /* Opacité pour tout le corps */
+}
